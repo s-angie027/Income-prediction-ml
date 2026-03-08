@@ -22,7 +22,7 @@ SHAP values were used to interpret model predictions and identify the most influ
 
 ## Feature Importance Plot
 ![Feature Importance](images/IMG_0033.png)
-## Beeswarm Plo
+## Beeswarm Plot
 ![Beeswarm Plot](images/IMG_0032.png)
 ## Key Insights
 ![Key Insights](images/IMG_0031.png)
