@@ -19,3 +19,5 @@ Accuracy: 0.87
 
 ## Explainability
 SHAP values were used to interpret model predictions and identify the most influential features.
+
+![Feature Importance](images/shap_feature_importance.png)
