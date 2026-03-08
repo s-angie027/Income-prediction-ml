@@ -20,4 +20,6 @@ Accuracy: 0.87
 ## Explainability
 SHAP values were used to interpret model predictions and identify the most influential features.
 
-![Feature Importance](images/shap_feature_importance.png)
+![Feature Importance](images/IMG_0033.png)
+![Beeswarm Plot](images/IMG_0032.png)
+![Feature Importance](images/IMG_0031.png)
