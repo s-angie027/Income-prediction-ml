@@ -1,28 +1,29 @@
 # Adult Income Classification with XGBoost, Logistic Regression, and SHAP
 
 # Project Overview
-This project builds and evaluates machine learning models to predict whether an individual's income exceeds $50K using the Adult Census Income dataset. The goal was to compare a baseline linear model against a more advanced tree-based model and evaluate performance using classification metrics, ROC-AUC, confusion matrix analysis, and SHAP explainability.
+This project builds machine learning models to predict whether a person earns more than $50K per year using the Adult Census Income dataset. The goal was to compare a simple model (Logistic Regression) with a more advanced model (XGBoost) and evaluate how well each one performs.
 
-# Business Risk Applications
-This project simulates a risk-classification workflow relevant to insurance and financial decision-making. In this context, accurately identifying higher-income individuals can be important for pricing and underwriting. The project also explores the tradeoff between predictive performance and interpretability.
+# Business Applications
+This project simulates a real-world problem similar to risk assessment in insurance or finance. For example, identifying higher-income individuals can help with pricing decisions, underwriting, or understanding customer profiles. The project also looks at the tradeoff between model accuracy and how easy the model is to explain.
 
 # Models Used
 Logistic Regression
 XGBoost Classifier
 
-Skills and Methods
-- Data cleaning and preprocessing
-- One-hot encoding of categorical variables
--Train/test split
-- Hyperparameter tuning with GridSearchCV
-- Evaluation using:
+# What I did:
+- Cleaned the dataset and handled missing values
+- Converted categorical data into numeric format using one-hot encoding
+- Split the data into training and testing sets
+- Hyperparameter tuned the XGBoost model with GridSearchCV
+- Evaluated model performance using:
     -Accuracy
-    -Precision
-    -Recall
+    -Precision and Recall
     -F1-score
     -ROC-AUC
     -Confusion matrix
-    -Model explainability with SHAP
+- Used SHAP values to understand which features influenced model predictions.
+
+![Model Comparison](images/Model
 
 Key Findings
 XGBoost outperformed Logistic Regression across all major metrics.
