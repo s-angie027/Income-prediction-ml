@@ -33,7 +33,6 @@ The table shows that XGBoost achieved higher accuracy, F1-scores, and ROC-AUC th
 ## Confusion Matrix
 The confusion matrix shows how well the model classifies each group. It helps highlight where the model makes mistakes, such as predicting high income when it is not true (false positives) or missing high-income individuals (false negatives).
 
-##Confusion Matrix
 ![Confusion Matrix](images/Confusion_Matrix.PNG)
 
 ## Key Findings
@@ -52,14 +51,14 @@ The confusion matrix shows how well the model classifies each group. It helps hi
 
 
 ## Explainability
-I used SHAP (SHapley Additive exPlanations) to understand how different features influenced the model’s predictions. This helps make the model more transparent and easier to interpret.
+I used SHAP (SHapley Additive exPlanations) to understand how different features influenced the XGBoost model’s predictions. This helps make the model more transparent and easier to interpret.
 
 ## Feature Importance Plot
 ![Feature Importance](images/SHAP_Feature_Importance.PNG)
 ## Beeswarm Plot
-![Beeswarm Plot](images/SHAP_Beeswar_Plot.png)
+![Beeswarm Plot](images/SHAP_Beeswar_Plot.PNG)
 ## Waterfall Plot
-![Waterfall Plot](images/SHAP_Waterfall_Plot.png)
+![Waterfall Plot](images/SHAP_Waterfall_Plot.PNG)
 
 ## Future Improvements
 - Rebuild preprocessing using Pipeline and ColumnTransformer
