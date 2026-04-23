@@ -44,7 +44,7 @@ Logistic Regression remained useful as a transparent, interpretable baseline.
 SHAP values were used to interpret model predictions and identify the most influential features.
 
 ## Feature Importance Plot
-![Feature Importance](images/IMG_0033.png)
+![Feature Importance](images/SHAP Feature Importance.PNG)
 ## Beeswarm Plot
 ![Beeswarm Plot](images/IMG_0032.png)
 ## Key Insights
